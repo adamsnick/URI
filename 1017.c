@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main()
@@ -11,7 +10,7 @@ double DISTOTAL, GASTO;
     DISTOTAL = TEMPO * KMH;
     GASTO = DISTOTAL /12;
     
-    printf("%.3lf",GASTO);
+    printf("%.3lf\n",GASTO);
 
     return 0;
 }
